@@ -22,12 +22,18 @@
   ;; --------------------
   ;; define routes here
   (defroute "/" []
-    (re-frame/dispatch [::events/set-active-panel :home-panel])
-    )
+    (re-frame/dispatch [::events/set-active-panel :home-panel]))
 
-  (defroute "/about" []
-    (re-frame/dispatch [::events/set-active-panel :about-panel]))
+  (defroute "/resume" []
+    (re-frame/dispatch [::events/set-active-panel :resume-panel]))
 
+  (defroute "/portfolio" []
+    (re-frame/dispatch [::events/set-active-panel :portfolio-panel]))
 
+  (defroute "/contact" []
+    (re-frame/dispatch [::events/set-active-panel :contact-panel]))
+
+  (defroute "/blog" []
+    (re-frame/dispatch [::events/set-active-panel :blog-panel]))
   ;; --------------------
   (hook-browser-navigation!))
