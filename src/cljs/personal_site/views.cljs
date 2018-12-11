@@ -1,41 +1,43 @@
 (ns personal-site.views
   (:require [re-frame.core :as re-frame]
-            [personal-site.subs :as subs]))
+            [personal-site.subs :as subs]
+
+            [personal-site.parts.nav :as nav]
+
+            [personal-site.pages.home :as home]
+            [personal-site.pages.contact :as contact]
+            [personal-site.pages.resume :as resume]
+            [personal-site.pages.portfolio :as portfolio]
+            [personal-site.pages.blog :as blog]))
 
 
 (defn home-panel []
-  (let [name (re-frame/subscribe [::subs/name])]
-    [:div
-     [:h1 (str "Hello from " @name ". This is the Home Page.")]
-
-     [:div
-      [:a {:href "#/resume"} "go to resume page"]
-      [:br]
-      [:a {:href "#/portfolio"} "go to portfolio page"]
-      [:br]
-      [:a {:href "#/contact"} "go to contact page"]
-      [:br]
-      [:a {:href "#/blog"} "go to blog page"]]]))
-
+  [:div
+   (nav/html)
+   (home/html)])
 
 (defn resume-panel []
   [:div
-   [:h1 "This is the resume page."]
+   (nav/html)
+   (resume/html)
    [:a {:href "#/"} "Go Home"]])
 
 (defn portfolio-panel []
   [:div
-   [:h1 "This is the portfolio page."]
+   (nav/html)
+   (portfolio/html)
    [:a {:href "#/"} "Go Home"]])
 
 (defn contact-panel []
   [:div
-   [:h1 "This is the contact page."]
+   (nav/html)
+   (contact/html)
    [:a {:href "#/"} "Go Home"]])
 
 (defn blog-panel []
   [:div
-   [:h1 "This is the Blog Page."]
+   (nav/html)
+   (blog/html)
    [:a {:href "#/"} "Go Home"]])
 
 
