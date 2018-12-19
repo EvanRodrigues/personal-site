@@ -1,0 +1,69 @@
+#navContainer {
+    width: 100%;
+    height: 30px;
+}
+
+.navLogo {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.logoText {
+    font-size: 30px;
+}
+
+
+#linkContainer {
+    height: 30px;
+    display: flex;
+    float: right;
+}
+
+
+.navLink {
+    display: inline-block;
+    height: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    color: black
+}
+
+
+.navLink > span {
+    display: block;
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.iconContainer, .pageLinks {
+    height: 30px;
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+.seperator {
+    border-left: 1px solid black;
+}
+
+
+.navIcon {
+    display: inline-block;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.navIcon > img {
+    height: 100%;
+}

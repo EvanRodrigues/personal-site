@@ -1,0 +1,115 @@
+/* #687864, #31708E, #5085A5, #8FC1E3, #F7F9FB */
+/* #c0b283, #dcd0c0, #f4f4f4, #373737 */
+
+body {
+    background-color: #F4f4f4;
+    font-family: Helvetica;
+    color: #373737;
+}
+
+.githubLink {
+    color: #373737;
+}
+
+.pageTitle {
+    background-color: #dcd0c0;
+    text-align: center;
+    color: #373737;
+}
+
+#app {
+    width: 65%;
+    margin: auto;
+}
+
+#navContainer {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*Portfolio CSS*/
+.portfolioEntry {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f4f4f4;
+    width: 45%;
+    height: 400px;
+    margin-bottom: 25px;
+    -moz-box-shadow: 4px 4px 5px 4px #ccc;
+    -webkit-box-shadow: 4px 4px 5px 4px #ccc;
+    box-shadow: 4px 4px 5px 4px #ccc;
+}
+
+.portfolioTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #373737;
+    background-color: #dcd0c0;
+    padding-left: 5px;
+}
+
+
+.portfolioSpace {
+    width: 9%;
+    display: inline-block;
+}
+
+
+.techStack, .description {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.techStack > h4, .description > h4 {
+    color: #c0b283;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.techStack {
+    width: 50%;
+}
+
+.techStack > ul {
+    padding-inline-start: 20px;
+}
+
+
+.description > p, .techStack > ul {
+    margin-top: 0px;
+}
+
+
+.buttonText {
+    display: inline-block;
+    color: #f4f4f4;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+
+.projectLink {
+    width: 100px;
+    height: 30px;
+    background-color: #c0b283;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.projectLink:hover {
+    background-color: #373737;
+}

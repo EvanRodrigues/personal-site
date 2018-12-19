@@ -19,26 +19,22 @@
 (defn resume-panel []
   [:div
    (nav/html)
-   (resume/html)
-   [:a {:href "#/"} "Go Home"]])
+   (resume/html)])
 
 (defn portfolio-panel []
   [:div
    (nav/html)
-   (portfolio/html)
-   [:a {:href "#/"} "Go Home"]])
+   (portfolio/html)])
 
 (defn contact-panel []
   [:div
    (nav/html)
-   (contact/html)
-   [:a {:href "#/"} "Go Home"]])
+   (contact/html)])
 
 (defn blog-panel []
   [:div
    (nav/html)
-   (blog/html)
-   [:a {:href "#/"} "Go Home"]])
+   (blog/html)])
 
 
 (defn- panels [panel-name]
