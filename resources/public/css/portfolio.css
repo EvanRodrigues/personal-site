@@ -1,0 +1,21 @@
+.entryContainer {
+    width: 45%;
+    height: 35%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 25px;
+}
+
+.entryTitle {
+    color: #ff471a;
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.entrySummary {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
