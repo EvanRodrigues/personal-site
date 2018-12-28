@@ -13,8 +13,8 @@
 
 (defn home-panel []
   [:div
-   (nav/html)
-   (home/html)])
+   (home/html)
+   ])
 
 (defn resume-panel []
   [:div

@@ -1,31 +1,140 @@
-/* #687864, #31708E, #5085A5, #8FC1E3, #F7F9FB */
-/* #c0b283, #dcd0c0, #f4f4f4, #373737 */
+html {
+    height: 100%;
+}
 
 body {
-    background-color: #F4f4f4;
-    font-family: Helvetica;
+    margin: 0;
+    font-family: Courier;
     color: #373737;
+    min-height: 100%;
 }
 
-.githubLink {
-    color: #373737;
+.contentContainer {
+    min-height: 100%;
 }
 
-.pageTitle {
-    background-color: #dcd0c0;
-    text-align: center;
-    color: #373737;
+#intro {
+    background: url("/images/orange_bricks.jpg") no-repeat center center fixed;
 }
 
-#app {
+#aboutMe {
+    background: url("/images/red_bricks.jpg") no-repeat center center fixed;
+}
+
+#portfolio {
+    background: url("/images/mixed_bricks.jpg") no-repeat center center fixed;
+}
+
+#blog {
+     background: url("/images/old_bricks.jpg") no-repeat center center fixed;
+}
+
+#intro, #aboutMe, #portfolio, #blog {
+    position: relative;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.containerIcon {
+    position: absolute;
+    height: 150px;
+    border: 3px solid #373737;
+    border-radius: 50%;
+    top: -75px;
+    left: calc(50% - 78px);
+}
+
+.infoContainer {
+    position: absolute;
+    background-color: #f4f4f4;
+    border: 3px solid #373737;
+    font-size: 20px;
     width: 65%;
+    height: 60%;
+    top: 20%;
+    left: 17.5%;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: auto;
+    -moz-box-shadow: 8px 8px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 8px 8px rgba(0,0,0,0.45);
+    box-shadow: 8px 8px rbga(0,0,0,0.45);
 }
 
-#navContainer {
-    margin-top: 15px;
-    padding-bottom: 15px;
+
+.infoTitle {
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+
+.text {
+    margin-top: 110px;
+}
+
+span {
+    font-size: 23px;
+    display: block;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#aboutMe > .infoContainer > span {
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.icon > img {
+    display: inline-block;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.socialLinks {
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    bottom: 25px;
+}
+
+.highlighted {
+    color: #ff471a;
+    text-decoration: none;
+}
+
+.highlighted:hover {
+    text-decoration: underline;
+}
+
+
+
+/*Misc CSS*/
+.fivePercent {
+    display: inline-block;
+    width: 5%;
+}
+
+.tenPercent {
+    display: inline-block;
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Portfolio CSS*/
@@ -37,15 +146,11 @@ body {
     width: 45%;
     height: 400px;
     margin-bottom: 25px;
-    -moz-box-shadow: 4px 4px 5px 4px #ccc;
-    -webkit-box-shadow: 4px 4px 5px 4px #ccc;
-    box-shadow: 4px 4px 5px 4px #ccc;
+
 }
 
 .portfolioTitle {
-    margin-top: 0;
     margin-bottom: 0;
-    padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     color: #373737;
@@ -71,7 +176,6 @@ body {
     color: #c0b283;
     font-size: 18px;
     text-decoration: underline;
-    margin-top: 20px;
     margin-bottom: 8px;
 }
 

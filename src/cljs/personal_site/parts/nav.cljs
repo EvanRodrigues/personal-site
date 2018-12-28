@@ -26,4 +26,6 @@
      [:a {:class "navIcon" :href "https://github.com/evanrodrigues"}
       [:img {:src "./images/icons/github.png"}]]
      [:a {:class "navIcon" :href "https://twitter.com/Evan__Rodrigues"}
-      [:img {:src "./images/icons/twitter.png"}]]]]])
+      [:img {:src "./images/icons/twitter.png"}]]
+     [:a {:class "navIcon" :href "https://instagram.com/Evan__Rodrigues"}
+      [:img {:src "./images/icons/instagram.png"}]]]]])
