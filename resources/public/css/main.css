@@ -13,29 +13,39 @@ body {
     min-height: 100%;
 }
 
-#intro {
-    background: url("/images/grey_orange_bricks.jpg") no-repeat center center fixed;
+#intro:before {
+    background: url("/images/grey_orange_bricks.jpg") no-repeat center center;
 }
 
-#aboutMe {
-    background: url("/images/grey_blue_bricks.jpg") no-repeat center center fixed;
+#aboutMe:before {
+    background: url("/images/grey_blue_bricks.jpg") no-repeat center center;
 }
 
-#portfolio {
-    background: url("/images/grey_red_bricks.jpg") no-repeat center center fixed;
+#portfolio:before {
+    background: url("/images/grey_red_bricks.jpg") no-repeat center center;
 }
 
-#blog {
-     background: url("/images/grey_bricks.jpg") no-repeat center center fixed;
+#blog:before {
+     background: url("/images/grey_bricks.jpg") no-repeat center center;
+}
+
+#intro:before, #aboutMe:before, #portfolio:before, #blog:before {
+    content: "";
+    display: block;
+    height: 1080px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -10;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #intro, #aboutMe, #portfolio, #blog {
     position: relative;
     height: 1080px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .infoContainer {
