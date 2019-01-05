@@ -1,28 +1,84 @@
 .entryContainer {
     width: 45%;
-    height: 35%;
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .entryTitle {
     color: #fa5208;
     margin-top: 0;
     margin-bottom: 7px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .entrySummary {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: bold;
 }
 
+@media screen and (max-width: 1375px) {
+    .entryTitle {
+	font-size: 22px;
+    }
+    .entrySummary {
+	font-size: 17px;
+    }
+}
 
-@media screen and (max-width: 728px) {
-    body {
-	font-family: arial !important;
+@media screen and (max-width: 1100px) {
+    .entryTitle {
+	font-size: 20px;
+    }
+    .entrySummary {
+	font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .entryContainer {
+	width: 90%;
+	margin-bottom: 15px;
+    }
+
+    .entryTitle {
+	font-size: 15px;
+    }
+
+    .entrySummary {
+	font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .entryTitle {
+	font-size: 13px;
+    }
+
+    .entrySummary {
+	font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .entryTitle {
+	font-size: 12px;
+    }
+
+    .entrySummary {
+	font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .entryTitle {
+	font-size: 11px;
+    }
+
+    .entrySummary {
+	font-size: 10px;
     }
 }

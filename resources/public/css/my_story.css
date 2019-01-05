@@ -1,0 +1,51 @@
+#aboutMe > .infoContainer > span {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1350px) {
+    #aboutMe > .infoContainer > span {
+	font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #aboutMe > .infoContainer > span {
+	margin-top: 15px;
+	font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #aboutMe > .infoContainer > span {
+	font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #aboutMe > .infoContainer > span {
+	margin-top: 20px;
+	font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #aboutMe > .infoContainer > span {
+	margin-top: 15px;
+	font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #aboutMe > .infoContainer > span {
+	margin-top: 15px;
+	font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #aboutMe > .infoContainer > span {
+	margin-top: 15px;
+	font-size: 10px;
+    }
+}

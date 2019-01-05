@@ -14,7 +14,7 @@ body {
 }
 
 #intro {
-    background: url("/images/grey_orange_bricks.jpg") no-repeat center center scroll;
+    background: url("/images/grey_orange_bricks.jpg") no-repeat center top scroll;
 }
 
 #aboutMe {
@@ -31,20 +31,11 @@ body {
 
 #intro, #aboutMe, #portfolio, #blog {
     position: relative;
-    height: 100vh;
+    height: 1080px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.containerIcon {
-    position: absolute;
-    height: 150px;
-    border: 3px solid #373737;
-    border-radius: 50%;
-    top: -75px;
-    left: calc(50% - 78px);
 }
 
 .infoContainer {
@@ -53,7 +44,7 @@ body {
     border: 3px solid #373737;
     font-size: 20px;
     width: 65%;
-    height: 60%;
+    height: 600px;
     top: 20%;
     left: 17.5%;
     padding-left: 15px;
@@ -72,21 +63,11 @@ body {
     margin-bottom: 10px;
 }
 
-
-.text {
-    margin-top: 110px;
-}
-
 span {
     font-size: 23px;
     display: block;
     font-weight: bold;
-    margin-top: 40px;
-}
-
-#aboutMe > .infoContainer > span {
-    margin-top: 18px;
-    font-size: 16px;
+    margin-top: 60px;
 }
 
 .icon > img {
@@ -127,94 +108,9 @@ span {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*Portfolio CSS*/
-.portfolioEntry {
-    position: relative;
-    display: inline-block;
-    vertical-align: top;
-    background-color: #f4f4f4;
-    width: 45%;
-    height: 400px;
-    margin-bottom: 25px;
-
-}
-
-.portfolioTitle {
-    margin-bottom: 0;
-    padding-bottom: 10px;
-    text-align: center;
-    color: #373737;
-    background-color: #dcd0c0;
-    padding-left: 5px;
-}
-
-
-.portfolioSpace {
-    width: 9%;
-    display: inline-block;
-}
-
-
-.techStack, .description {
-    display: block;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 30px;
-}
-
-.techStack > h4, .description > h4 {
-    color: #c0b283;
-    font-size: 18px;
-    text-decoration: underline;
-    margin-bottom: 8px;
-}
-
-.techStack {
-    width: 50%;
-}
-
-.techStack > ul {
-    padding-inline-start: 20px;
-}
-
-
-.description > p, .techStack > ul {
-    margin-top: 0px;
-}
-
-
-.buttonText {
-    display: inline-block;
-    color: #f4f4f4;
-    font-size: 12px;
-    font-weight: bold;
-    text-decoration: none;
-    line-height: 30px;
-}
-
-
-.projectLink {
-    width: 100px;
-    height: 30px;
-    background-color: #c0b283;
-    text-align: center;
-    border-radius: 10px 10px 10px 10px;
-    position: absolute;
-    right: 15px;
-    bottom: 10px;
-}
-
-.projectLink:hover {
-    background-color: #373737;
+/*Mobile CSS*/
+@media screen and (max-width: 500px) {
+    .infoTitle {
+	font-size: 25px;
+    }
 }

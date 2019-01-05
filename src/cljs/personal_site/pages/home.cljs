@@ -10,4 +10,5 @@
    (intro/html)
    (story/html)
    (portfolio/html)
-   (blog/html)])
+   ;; (blog/html)
+   ])
