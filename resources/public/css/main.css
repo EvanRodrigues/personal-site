@@ -14,15 +14,15 @@ body {
 }
 
 #intro:before {
-    background: url("/images/grey_orange_bricks.jpg") no-repeat center center;
+    background: url("/images/grey_orange_bricks_resized.jpg") no-repeat center center;
 }
 
 #aboutMe:before {
-    background: url("/images/grey_blue_bricks.jpg") no-repeat center center;
+    background: url("/images/grey_blue_bricks_resized.jpg") no-repeat center center;
 }
 
 #portfolio:before {
-    background: url("/images/grey_red_bricks.jpg") no-repeat center center;
+    background: url("/images/grey_red_bricks_resized.jpg") no-repeat center center;
 }
 
 #blog:before {
@@ -32,7 +32,7 @@ body {
 #intro:before, #aboutMe:before, #portfolio:before, #blog:before {
     content: "";
     display: block;
-    height: 1080px;
+    height: 100%;
     left: 0;
     top: 0;
     width: 100%;
@@ -56,10 +56,12 @@ body {
     width: 65%;
     height: 600px;
     top: 20%;
-    left: 15%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
     -moz-box-shadow: 8px 8px rgba(0,0,0,0.45);
     -webkit-box-shadow: 8px 8px rgba(0,0,0,0.45);
     box-shadow: 8px 8px rbga(0,0,0,0.45);
