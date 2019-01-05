@@ -14,19 +14,19 @@ body {
 }
 
 #intro {
-    background: url("/images/orange_bricks.jpg") no-repeat center center fixed;
+    background: url("/images/grey_orange_bricks_low.jpg") no-repeat center center scroll;
 }
 
 #aboutMe {
-    background: url("/images/red_bricks.jpg") no-repeat center center fixed;
+    background: url("/images/grey_blue_bricks_low.jpg") no-repeat center center scroll;
 }
 
 #portfolio {
-    background: url("/images/mixed_bricks.jpg") no-repeat center center fixed;
+    background: url("/images/grey_red_bricks_low.jpg") no-repeat center center scroll;
 }
 
 #blog {
-     background: url("/images/old_bricks.jpg") no-repeat center center fixed;
+     background: url("/images/grey_bricks_low.jpg") no-repeat center center scroll;
 }
 
 #intro, #aboutMe, #portfolio, #blog {
@@ -67,6 +67,7 @@ body {
 
 .infoTitle {
     text-decoration: underline;
+    font-size: 45px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -103,7 +104,7 @@ span {
 }
 
 .highlighted {
-    color: #ff471a;
+    color: #fa5208;
     text-decoration: none;
 }
 

@@ -23,5 +23,5 @@
        [:img {:src "./images/icons/github.png"}]]
       [:a {:class "icon" :href "https://twitter.com/Evan__Rodrigues"}
        [:img {:src "./images/icons/twitter.png"}]]
-      [:a {:class "icon" :href "https://instagram.com/Evan__Rodrigues"}
+      [:a {:class "icon" :href "https://www.instagram.com/Evan__Rodrigues"}
        [:img {:src "./images/icons/instagram.png"}]]]]]])
