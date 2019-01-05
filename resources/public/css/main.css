@@ -14,19 +14,19 @@ body {
 }
 
 #intro {
-    background: url("/images/grey_orange_bricks.jpg") no-repeat center top scroll;
+    background: url("/images/grey_orange_bricks.jpg") no-repeat center center fixed;
 }
 
 #aboutMe {
-    background: url("/images/grey_blue_bricks.jpg") no-repeat center center scroll;
+    background: url("/images/grey_blue_bricks.jpg") no-repeat center center fixed;
 }
 
 #portfolio {
-    background: url("/images/grey_red_bricks.jpg") no-repeat center center scroll;
+    background: url("/images/grey_red_bricks.jpg") no-repeat center center fixed;
 }
 
 #blog {
-     background: url("/images/grey_bricks.jpg") no-repeat center center scroll;
+     background: url("/images/grey_bricks.jpg") no-repeat center center fixed;
 }
 
 #intro, #aboutMe, #portfolio, #blog {
@@ -46,7 +46,7 @@ body {
     width: 65%;
     height: 600px;
     top: 20%;
-    left: 17.5%;
+    left: 15%;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
