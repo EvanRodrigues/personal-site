@@ -12,6 +12,20 @@
     height: 80%;
 }
 
+.icon > img {
+    display: inline-block;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.socialLinks {
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    bottom: 25px;
+}
+
 
 @media screen and (max-width: 900px) {
     .text > span {
@@ -34,7 +48,7 @@
 
 
 @media screen and (max-width: 500px) {
-    .text >span {
+    .text > span {
 	font-size: 17px;
     }
 }

@@ -19,6 +19,16 @@
     font-weight: bold;
 }
 
+.entryLink {
+    text-decoration: none;
+}
+
+.entryLink:hover {
+    text-decoration: underline;
+    text-decoration-color: #fa5208;
+}
+
+
 @media screen and (max-width: 1375px) {
     .entryTitle {
 	font-size: 22px;

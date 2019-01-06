@@ -14,22 +14,22 @@ body {
 }
 
 #intro:before {
-    background: url("/images/grey_orange_bricks_resized.jpg") no-repeat center center;
+    background: url("/images/orange_bricks.jpg") no-repeat center center
 }
 
-#aboutMe:before {
-    background: url("/images/grey_blue_bricks_resized.jpg") no-repeat center center;
+#myStory:before {
+    background: url("/images/blue_bricks.jpg") no-repeat center center;
 }
 
 #portfolio:before {
-    background: url("/images/grey_red_bricks_resized.jpg") no-repeat center center;
+    background: url("/images/red_bricks.jpg") no-repeat center center;
 }
 
 #blog:before {
      background: url("/images/grey_bricks.jpg") no-repeat center center;
 }
 
-#intro:before, #aboutMe:before, #portfolio:before, #blog:before {
+#intro:before, #myStory:before, #portfolio:before, #blog:before {
     content: "";
     display: block;
     height: 100%;
@@ -43,7 +43,7 @@ body {
     background-size: cover;
 }
 
-#intro, #aboutMe, #portfolio, #blog {
+#intro, #myStory, #portfolio, #blog {
     position: relative;
     height: 1080px;
 }
@@ -67,7 +67,6 @@ body {
     box-shadow: 8px 8px rbga(0,0,0,0.45);
 }
 
-
 .infoTitle {
     text-decoration: underline;
     font-size: 45px;
@@ -80,20 +79,6 @@ span {
     display: block;
     font-weight: bold;
     margin-top: 60px;
-}
-
-.icon > img {
-    display: inline-block;
-    width: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.socialLinks {
-    position: absolute;
-    left: 50%;
-    margin-left: -120px;
-    bottom: 25px;
 }
 
 .highlighted {
