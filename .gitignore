@@ -1,4 +1,6 @@
 .rebel_readline_history
+.lein-repl-history
+.nrepl-port
 /*.log
 /target
 /*-init.clj

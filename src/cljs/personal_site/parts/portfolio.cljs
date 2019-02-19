@@ -13,7 +13,7 @@
     [:h1 {:class "infoTitle"} "Portfolio"]
 
     (portfolio_entry "Blue Moon Analytics Website"
-                     "https://www.bluemoonanalytics.com"
+                     "https://github.com/EvanRodrigues/bma-website"
                      "A conversion of the previous Blue Moon Analytics website into a serverless SPA using re-frame. The new features to the site that were added were a pricing tool, blog, and a newly designed nav bar for desktop and for mobile.")
 
     [:div {:class "tenPercent"}]
