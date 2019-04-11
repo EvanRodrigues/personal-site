@@ -5,8 +5,7 @@
    [personal-site.events :as events]
    [personal-site.routes :as routes]
    [personal-site.views :as views]
-   [personal-site.config :as config]
-   ))
+   [personal-site.config :as config]))
 
 
 (defn dev-setup []

@@ -1,5 +1,6 @@
 .containerIcon {
     position: absolute;
+    width: 150px;
     height: 150px;
     border: 3px solid #373737;
     border-radius: 50%;

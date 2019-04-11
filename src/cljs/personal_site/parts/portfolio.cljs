@@ -18,16 +18,16 @@
 
     [:div {:class "tenPercent"}]
 
-    (portfolio_entry "Review Site (In Development)"
-                     "https://github.com/EvanRodrigues/review-site"
-                     "This is a site to review many forms of media. This gives me a chance to share my opinion on new video games and movies, and also get experience working with a backend in clojure. It will include user registration, and users will be able rate my reviews with a thumbs up or down.")
+    (portfolio_entry "SongList"
+                     "https://github.com/EvanRodrigues/SongList"
+                     "This is a site to organize songs into a table. Songs are stored in a MySQL database. Each song contains 4 categories displayed on the table: Title, Artist, Setlist, and Date Added. Users can order by category (descending or ascending) by clicking the category name. They can also search through the table by typing in a title, artist, or setlist.")
 
     (portfolio_entry "IRCbot (In Development)"
                      "https://github.com/EvanRodrigues/IRCbot"
-                     "An IRC chat bot that is used for twitch.tv. The bot manages user data, raffles, in-channel currency distribution, song requests, and games. The bot can be configurated to work with any streamer. I'm considering customizing the bot as part-time work if a streamer requests specific features.")
+                     "An IRC chat bot that is used for twitch.tv. The bot manages user data, raffles, in-channel currency distribution, song requests, and games. The bot can be configured to work with any streamer. I'm considering customizing the bot as part-time work if a streamer requests specific features.")
 
     [:div {:class "tenPercent"}]
 
     (portfolio_entry "Redacted.tv"
                      "https://redacted.tv"
-                     "The community website for the Twitch.tv team \"Redacted\". I developed the Twitter and Twitch sections of the home page as WordPress shortcodes. I also editted the WordPress template to match design goals for the site.")]])
+                     "The community website for the Twitch.tv team \"Redacted\". I developed the Twitter and Twitch sections of the home page as WordPress shortcodes. I also editted the template to match design goals for the site.")]])

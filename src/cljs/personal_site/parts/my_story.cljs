@@ -13,4 +13,4 @@
 
     [:span {:class "storyEntry"} "My first job was with " [:a {:class "highlighted" :href "https://bluemoonanalytics.com"} "Blue Moon Analytics"] " as a Front End Developer Consultant. Most of my work was converting their website to a serverless SPA using Clojure and re-frame. Aside from that, I constructed their blog to work without a back end, and built a pricing tool to calculate subscription costs for potential customers."]
 
-    [:span {:class "storyEntry"} "As you read above, I am currently looking for Front End Developer work either remotely or in the New York City area. My current goal is to specialize in Web Development using Clojure."]]])
+    [:span {:class "storyEntry"} "As you read above, I am currently looking for Front End Developer work either remotely or in the New York City area."]]])
