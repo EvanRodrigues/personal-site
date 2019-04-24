@@ -64,6 +64,17 @@
 
 @media screen and (max-width: 750px) {
     .entryTitle {
+	font-size: 14px;
+    }
+
+    .entrySummary {
+	font-size: 12.5px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .entryTitle {
 	font-size: 13px;
     }
 
@@ -72,23 +83,12 @@
     }
 }
 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .entryTitle {
 	font-size: 12px;
     }
 
     .entrySummary {
 	font-size: 11px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .entryTitle {
-	font-size: 11px;
-    }
-
-    .entrySummary {
-	font-size: 10px;
     }
 }

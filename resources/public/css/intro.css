@@ -47,9 +47,9 @@
     }
 }
 
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .text > span {
-	font-size: 17px;
+	font-size: 18.5px;
+	margin-top: 20px;
     }
 }

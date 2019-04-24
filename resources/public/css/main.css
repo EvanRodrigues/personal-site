@@ -13,19 +13,19 @@ body {
     min-height: 100%;
 }
 
-#intro:before {
+#intro {
     background: url("/images/orange_bricks.jpg") no-repeat center center
 }
 
-#myStory:before {
+#myStory {
     background: url("/images/blue_bricks.jpg") no-repeat center center;
 }
 
-#portfolio:before {
+#portfolio {
     background: url("/images/red_bricks.jpg") no-repeat center center;
 }
 
-#blog:before {
+#blog {
      background: url("/images/grey_bricks.jpg") no-repeat center center;
 }
 
@@ -109,5 +109,14 @@ span {
 @media screen and (max-width: 500px) {
     .infoTitle {
 	font-size: 25px;
+    }
+
+    .infoContainer {
+	top: 15% !important;
+	width: 80% !important;
+    }
+
+    #intro, #myStory, #portfolio, #blog {
+	height: 875px;
     }
 }

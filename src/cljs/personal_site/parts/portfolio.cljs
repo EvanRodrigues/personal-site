@@ -20,7 +20,7 @@
 
     (portfolio_entry "SongList"
                      "https://github.com/EvanRodrigues/SongList"
-                     "This is a site to organize songs into a table. Songs are stored in a MySQL database. Each song contains 4 categories displayed on the table: Title, Artist, Setlist, and Date Added. Users can order by category (descending or ascending) by clicking the category name. They can also search through the table by typing in a title, artist, or setlist.")
+                     "This is a site to organize songs into a table. Songs are stored in a MySQL database. Users can order by category (descending or ascending) by clicking the category name. They can also search through the table by typing in a title, artist, or setlist.")
 
     (portfolio_entry "IRCbot (In Development)"
                      "https://github.com/EvanRodrigues/IRCbot"
