@@ -14,15 +14,15 @@ body {
 }
 
 #intro {
-    background: url("/images/orange_bricks.jpg") no-repeat center center
+    background: url("/images/squares_dusty.png") center center
 }
 
 #myStory {
-    background: url("/images/blue_bricks.jpg") no-repeat center center;
+    background: url("/images/wide_rectangles_blue.png") center center;
 }
 
 #portfolio {
-    background: url("/images/red_bricks.jpg") no-repeat center center;
+    background: url("/images/tasky_pattern_overcast.png") center center;
 }
 
 #blog {
@@ -50,7 +50,7 @@ body {
 
 .infoContainer {
     position: absolute;
-    background-color: #f4f4f4;
+    background-color: #f6f6f6;
     border: 3px solid #373737;
     font-size: 20px;
     width: 65%;
@@ -82,7 +82,7 @@ span {
 }
 
 .highlighted {
-    color: #fa5208;
+    color: #2351bc;
     text-decoration: none;
 }
 

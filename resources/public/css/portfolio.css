@@ -6,7 +6,7 @@
 }
 
 .entryTitle {
-    color: #fa5208;
+    color: #2351bc;
     margin-top: 0;
     margin-bottom: 7px;
     font-size: 25px;
@@ -25,7 +25,7 @@
 
 .entryLink:hover {
     text-decoration: underline;
-    text-decoration-color: #fa5208;
+    text-decoration-color: #2351bc;
 }
 
 
