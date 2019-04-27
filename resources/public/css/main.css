@@ -13,12 +13,15 @@ body {
     min-height: 100%;
 }
 
+/*
+ *Backgrounds: #6d7993, #96858f, #9099a2
+ */
 #intro {
-    background: url("/images/squares_dusty.png") center center
+    background: url("/images/wide_rectangles_blue.png") center center
 }
 
 #myStory {
-    background: url("/images/wide_rectangles_blue.png") center center;
+    background: url("/images/squares_dusty.png") center center;
 }
 
 #portfolio {
@@ -82,7 +85,7 @@ span {
 }
 
 .highlighted {
-    color: #2351bc;
+    color: #395fb2;
     text-decoration: none;
 }
 
