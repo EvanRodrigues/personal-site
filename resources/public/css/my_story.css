@@ -1,50 +1,67 @@
+.storyContainer {
+    height: calc(90% - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px 20px 0px;
+}
+
 .storyEntry {
-    margin-top: 25px;
     font-size: 18px;
 }
 
-@media screen and (max-width: 1350px) {
-    .storyEntry {
-	font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .storyEntry {
-	margin-top: 15px;
-	font-size: 16px;
-    }
-}
-
 @media screen and (max-width: 950px) {
+    .storyEntry {
+	font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .storyEntry {
+	font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .storyContainer {
+	height: calc(92.5% - 10px);
+	padding: 0px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .storyEntry {
 	font-size: 15px;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 375px) {
     .storyEntry {
-	margin-top: 20px;
+	font-size: 14.5px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .storyEntry {
 	font-size: 13px;
     }
 }
 
-@media screen and (max-width: 700px) {
-     .storyEntry {
-	margin-top: 15px;
+
+@media screen and (max-width: 350px) {
+    .storyEntry {
 	font-size: 12px;
     }
 }
 
-@media screen and (max-width: 550px) {
-    .storyEntry {
-	font-size: 11.5px;
-	margin-top: 15px;
-    }
-}
 
-@media screen and (max-width: 400px) {
+@media screen and (max-height: 420px) and (orientation: landscape) {
     .storyEntry {
-	font-size: 11px;
+	font-size: 12px;
+    }
+
+    .storyContainer {
+	height: calc(90% - 20px);
+	padding: 10px 0px 10px 0px;
     }
 }

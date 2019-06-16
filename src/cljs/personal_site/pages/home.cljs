@@ -8,7 +8,7 @@
 (defn html []
   [:div {:class "contentContainer"}
    (intro/html)
-   (story/html)
    (portfolio/html)
+   (story/html)
    ;; (blog/html)
    ])

@@ -1,55 +1,83 @@
-.containerIcon {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    border: 3px solid #373737;
-    border-radius: 50%;
-    top: -75px;
-    left: calc(50% - 78px);
-}
-
 .text {
-    margin-top: 125px;
-    height: 80%;
+    padding-top: 45px;
+    height: calc(100% - 170px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.icon > img {
+.introEntry{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.icon {
     display: inline-block;
-    width: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .socialLinks {
     position: absolute;
-    left: 50%;
-    margin-left: -120px;
+    width: calc(100% - 30px);
+    text-align: center;
     bottom: 25px;
 }
 
 
-@media screen and (max-width: 900px) {
-    .text > span {
-	margin-top: 35px;
+
+
+@media screen and (max-width: 1250px) {
+    .introEntry {
+	font-size: 26px;
     }
 }
 
 
-@media screen and (max-width: 600px) {
-    .infoContainer {
-	font-size: 15px;
-    }
-
-    .text > span {
+/*Phones*/
+@media screen and (max-width: 500px) {
+    .introEntry {
 	text-align: center;
-	font-size: 20px;
-	margin-top: 30px;
+	font-size: 23px;
     }
 }
 
-@media screen and (max-width: 400px) {
-    .text > span {
-	font-size: 18.5px;
-	margin-top: 20px;
+
+/*iPhone 5*/
+@media screen and (max-width: 350px) {
+    .text {
+	height: calc(100% - 125px);
+    }
+
+    .introEntry {
+	font-size: 19px;
+    }
+
+    .icon {
+	width: 40px;
+	height: 40px;
+    }
+}
+
+
+/*Landscape mode on phones*/
+@media screen and (max-height: 420px) and (orientation: landscape) {
+    .text {
+	height: calc(100% - 75px);
+	padding-top: 10px;
+    }
+
+    .introEntry {
+	text-align: left;
+	font-size: 16.5px;
+    }
+
+    .icon {
+	width: 25px;
+	height: 25px;
+    }
+
+    .socialLinks {
+	bottom: 15px;
     }
 }

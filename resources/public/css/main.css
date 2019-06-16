@@ -21,34 +21,20 @@ body {
 }
 
 #myStory {
-    background: url("/images/squares_dusty.png") center center;
+    background: url("/images/tasky_pattern_overcast.png") center center;
 }
 
 #portfolio {
-    background: url("/images/tasky_pattern_overcast.png") center center;
+    background: url("/images/squares_dusty.png") center center;
 }
 
 #blog {
      background: url("/images/grey_bricks.jpg") no-repeat center center;
 }
 
-#intro:before, #myStory:before, #portfolio:before, #blog:before {
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: -10;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 #intro, #myStory, #portfolio, #blog {
     position: relative;
-    height: 1080px;
+    height: 100vh;
 }
 
 .infoContainer {
@@ -57,8 +43,8 @@ body {
     border: 3px solid #373737;
     font-size: 20px;
     width: 65%;
-    height: 600px;
-    top: 20%;
+    height: 65vh;
+    top: calc(17.5vh - 3px); /*3px because of the border */
     left: 0;
     right: 0;
     margin-left: auto;
@@ -70,6 +56,13 @@ body {
     box-shadow: 8px 8px rbga(0,0,0,0.45);
 }
 
+.headerContainer {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .infoTitle {
     text-decoration: underline;
     font-size: 45px;
@@ -78,10 +71,9 @@ body {
 }
 
 span {
-    font-size: 23px;
+    font-size: 25px;
     display: block;
     font-weight: bold;
-    margin-top: 60px;
 }
 
 .highlighted {
@@ -95,31 +87,60 @@ span {
 
 
 
-/*Misc CSS*/
-.fivePercent {
-    display: inline-block;
-    width: 5%;
-}
-
-.tenPercent {
-    display: inline-block;
-    width: 10%;
-}
-
 
 
 /*Mobile CSS*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
+    .infoContainer {
+	top: calc(17.5vh - 3px);
+	height: 65vh;
+	width: 65%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .infoContainer {
+	top: calc(3vh - 3px); /* 3px because of the border */
+	height: 94vh;
+	width: calc(90vw - 18px);
+
+	-moz-box-shadow: 0 0 0;
+	-webkit-box-shadow: 0 0 0 ;
+	box-shadow: 0 0 0;
+    }
+
+    .headerContainer {
+	height: 7.5%;
+    }
+
     .infoTitle {
 	font-size: 25px;
     }
+}
 
+@media screen and (max-width: 500px) {
+    .headerContainer {
+	text-align: center;
+    }
+}
+
+@media screen and (max-height: 420px) and (orientation: landscape) {
+    /*Needed for iPhone X and Pixel 2 XL dimensions*/
     .infoContainer {
-	top: 15% !important;
-	width: 80% !important;
+	top: calc(3vh - 3px); /* 3px because of the border */
+	height: 94vh;
+	width: calc(90vw - 18px);
+
+	-moz-box-shadow: 0 0 0;
+	-webkit-box-shadow: 0 0 0 ;
+	box-shadow: 0 0 0;
     }
 
-    #intro, #myStory, #portfolio, #blog {
-	height: 875px;
+    .infoTitle {
+	font-size: 35px;
+    }
+
+    .headerContainer {
+	height: 10%;
     }
 }
