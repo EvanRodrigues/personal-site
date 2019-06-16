@@ -17,15 +17,15 @@ body {
  *Backgrounds: #6d7993, #96858f, #9099a2
  */
 #intro {
-    background: url("/images/wide_rectangles_blue.png") center center
+    background: url("/images/wide_rectangles_blue.png");
 }
 
 #myStory {
-    background: url("/images/tasky_pattern_overcast.png") center center;
+    background: url("/images/tasky_pattern_overcast.png");
 }
 
 #portfolio {
-    background: url("/images/squares_dusty.png") center center;
+    background: url("/images/squares_dusty.png");
 }
 
 #blog {
