@@ -18,7 +18,9 @@
 
     [:div {:class "socialLinks"}
      [:div {:class "iconContainer"}
-      [:a {:href "https://linkedin.com/in/evan-rodrigues"}
-       [:img {:class "icon" :src "./images/icons/linked-in_50.png"}]]
-      [:a {:href "https://github.com/evanrodrigues"}
-       [:img {:class "icon" :src "./images/icons/github_50.png"}]]]]]])
+      [:a {:href "https://linkedin.com/in/evan-rodrigues"
+           :aria-label "Check out my LinkedIn"}
+       [:img {:class "icon" :alt "linked-in_50.png" :src "./images/icons/linked-in_50.png"}]]
+      [:a {:href "https://github.com/evanrodrigues"
+           :aria-label "Check out my GitHub"}
+       [:img {:class "icon" :alt "github_50.png" :src "./images/icons/github_50.png"}]]]]]])
