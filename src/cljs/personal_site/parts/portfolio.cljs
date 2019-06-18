@@ -13,7 +13,7 @@
     [:div {:class "headerContainer"}
      [:h1 {:class "infoTitle"} "Portfolio"]]
     [:div {:class "portfolioContainer"}
-      (portfolio_entry "Blue Moon Analytics Website"
+      (portfolio_entry "BMA Website"
                        "https://github.com/EvanRodrigues/bma-website"
                        "I converted the previous Blue Moon Analytics site into a serverless SPA using re-frame. The new features that were added are a pricing tool, blog, and a nav bar for desktop and mobile.")
 

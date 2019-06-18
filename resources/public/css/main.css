@@ -18,14 +18,17 @@ body {
  */
 #intro {
     background: url("/images/wide_rectangles_blue.png");
+    background-size: 32px 14px;
 }
 
 #myStory {
     background: url("/images/tasky_pattern_overcast.png");
+    background-size: 10px 10px;
 }
 
 #portfolio {
     background: url("/images/squares_dusty.png");
+    background-size: 32px 32px;
 }
 
 #blog {
@@ -33,46 +36,40 @@ body {
 }
 
 #intro, #myStory, #portfolio, #blog {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    min-height: 700px;
 }
 
 .infoContainer {
-    position: absolute;
     background-color: #f6f6f6;
     border: 3px solid #373737;
     font-size: 20px;
-    width: 65%;
-    height: 65vh;
-    top: calc(17.5vh - 3px); /*3px because of the border */
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 70vw;
+    height: 42rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     -moz-box-shadow: 8px 8px rgba(0,0,0,0.45);
     -webkit-box-shadow: 8px 8px rgba(0,0,0,0.45);
     box-shadow: 8px 8px rbga(0,0,0,0.45);
 }
 
 .headerContainer {
-    height: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 3rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
 }
 
 .infoTitle {
     text-decoration: underline;
-    font-size: 45px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 span {
-    font-size: 25px;
-    display: block;
     font-weight: bold;
 }
 
@@ -91,41 +88,47 @@ span {
 
 /*Mobile CSS*/
 @media screen and (max-width: 768px) {
-    .infoContainer {
-	top: calc(17.5vh - 3px);
-	height: 65vh;
-	width: 65%;
+    html {
+	font-size: 14px;
     }
 }
 
 @media screen and (max-width: 700px){
-    .infoContainer {
-	top: calc(3vh - 3px); /* 3px because of the border */
-	height: 94vh;
-	width: calc(90vw - 18px);
-
-	-moz-box-shadow: 0 0 0;
-	-webkit-box-shadow: 0 0 0 ;
-	box-shadow: 0 0 0;
+    html {
+	font-size: 12px;
     }
 
-    .headerContainer {
-	height: 7.5%;
+    #intro, #myStory, #portfolio, #blog {
+	min-height: 0px;
     }
 
-    .infoTitle {
-	font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 500px) {
     .headerContainer {
 	text-align: center;
     }
+
+    .infoContainer {
+	height: 94vh;
+	width: calc(90vw - 18px);
+
+	-moz-box-shadow: 0 0 0;
+	-webkit-box-shadow: 0 0 0 ;
+	box-shadow: 0 0 0;
+    }
 }
 
-@media screen and (max-height: 420px) and (orientation: landscape) {
-    /*Needed for iPhone X and Pixel 2 XL dimensions*/
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    html {
+	font-size: 10px;
+    }
+
+    #intro, #myStory, #portfolio, #blog {
+	min-height: 0px;
+    }
+
+    .headerContainer {
+	text-align: left;
+    }
+
     .infoContainer {
 	top: calc(3vh - 3px); /* 3px because of the border */
 	height: 94vh;
@@ -134,13 +137,5 @@ span {
 	-moz-box-shadow: 0 0 0;
 	-webkit-box-shadow: 0 0 0 ;
 	box-shadow: 0 0 0;
-    }
-
-    .infoTitle {
-	font-size: 35px;
-    }
-
-    .headerContainer {
-	height: 10%;
     }
 }

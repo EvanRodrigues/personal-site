@@ -1,5 +1,5 @@
 .portfolioContainer {
-    height: calc(90% - 15px);
+    height: calc(100% - 5.5rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -13,13 +13,13 @@
     color: #395fb2;
     margin-top: 0;
     margin-bottom: 7px;
-    font-size: 25px;
+    font-size: 1.75rem;
 }
 
 .entrySummary {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 2.1vh;
+    font-size: 1.35rem;
     font-weight: bold;
 }
 
@@ -33,41 +33,21 @@
 }
 
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1200px) {
     .entryTitle {
-	font-size: 23px;
+	font-size: 1.4rem;
     }
 
     .entrySummary {
-	font-size: 19px;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .entryTitle {
-	font-size: 21px;
-    }
-
-    .entrySummary {
-	font-size: 17px;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    .entryTitle {
-	font-size: 19px;
-    }
-
-    .entrySummary {
-	font-size: 15px;
+	font-size: 1.1rem;
     }
 }
 
 
 @media screen and (max-width: 700px) {
     .portfolioContainer {
-	flex-wrap: nowrap;
 	flex-direction: column;
+	flex-wrap: nowrap;
     }
 
     .entryContainer {
@@ -75,50 +55,67 @@
     }
 
     .entryTitle {
-	font-size: 21px;
-    }
-
-    .entrySummary {
-	font-size: 18px;
-    }
-}
-
-
-@media screen and (max-width: 500px) {
-    .entryTitle {
 	text-align: center;
-	font-size: 17px;
+	font-size: 1.9rem;
     }
 
     .entrySummary {
 	text-align: center;
-	font-size: 13px;
+	font-size: 1.2rem;
     }
 }
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
     .entryTitle {
-	font-size: 14px;
+	font-size: 1.75rem;
     }
 
     .entrySummary {
-	font-size: 11px;
+	font-size: 1rem;
     }
 }
 
 
-@media screen and (max-height: 420px) and (orientation: landscape) {
+@media screen and (max-width: 374px) {
+    .entryTitle {
+	font-size: 1.5rem;
+    }
+
+    .entrySummary {
+	font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
     .portfolioContainer {
-	margin-top: 5px;
-	height: calc(90% - 10px);
+	flex-direction: row;
+	flex-wrap: wrap;
+    }
+
+    .entryContainer {
+	width: 47.5%;
     }
 
     .entryTitle {
-	font-size: 18px;
+	font-size: 2rem;
     }
 
     .entrySummary {
-	font-size: 14px;
+	font-size: 1.15rem;
+    }
+}
+
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .entryTitle {
+	text-align: left;
+	font-size: 1.6rem;
+    }
+
+    .entrySummary {
+	text-align: left;
+	font-size: 1rem;
     }
 }
