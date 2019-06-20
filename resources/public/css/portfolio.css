@@ -83,7 +83,7 @@
     }
 
     .entrySummary {
-	font-size: .9rem;
+	font-size: .95rem;
     }
 }
 
@@ -99,16 +99,28 @@
     }
 
     .entryTitle {
+	text-align: left;
 	font-size: 2rem;
     }
 
     .entrySummary {
-	font-size: 1.15rem;
+	text-align: left;
+	font-size: 1.4rem;
     }
 }
 
 
 @media screen and (max-width: 640px) and (orientation: landscape) {
+    .entryTitle {
+	font-size: 1.8rem;
+    }
+
+    .entrySummary {
+	font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 568px) and (orientation: landscape) {
     .entryTitle {
 	text-align: left;
 	font-size: 1.6rem;
@@ -116,6 +128,6 @@
 
     .entrySummary {
 	text-align: left;
-	font-size: 1rem;
+	font-size: 1.1rem;
     }
 }

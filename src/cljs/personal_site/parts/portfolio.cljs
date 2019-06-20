@@ -25,7 +25,7 @@
 
       (portfolio_entry "IRCbot (In Development)"
                        "https://github.com/EvanRodrigues/IRCbot"
-                       "An IRC chat bot used for twitch.tv. The bot manages user data, raffles, in-channel currency distribution, song requests, and games. The bot can be configured to work with any streamer. I'm considering customizing the bot as part-time work if a streamer requests specific features.")
+                       "An IRC chat bot used for twitch.tv. The bot manages user data, raffles, in-channel currency distribution, song requests, and games. The bot can be configured to work with any streamer.")
 
 
       (portfolio_entry "Redacted.tv"

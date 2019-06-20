@@ -6,32 +6,33 @@
 }
 
 .storyEntry {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 
 @media screen and (max-width: 1000px) {
     .storyEntry {
-	font-size: 1.1rem;
+	font-size: 1.3rem;
     }
 }
 
 
 @media screen and (max-width: 768px) {
     .storyEntry {
-	font-size: 1.15rem;
+	font-size: 1.25rem;
     }
 }
 
 @media screen and (max-width: 700px) {
     .storyEntry {
 	text-align: center;
+	font-size: 1.4rem;
     }
 }
 
 @media screen and (max-width: 360px) {
     .storyEntry {
-	font-size: .9rem;
+	font-size: 1.2rem;
     }
 }
 
@@ -39,11 +40,12 @@
 @media screen and (max-width: 823px) and (orientation: landscape) {
     .storyEntry {
 	text-align: left;
+	font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 640px) and (orientation: landscape) {
     .storyEntry {
-	font-size: 1rem;
+	font-size: 1.25rem;
     }
 }
