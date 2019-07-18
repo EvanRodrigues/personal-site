@@ -23,7 +23,17 @@
   (defroute "/" []
     (re-frame/dispatch [::events/set-active-panel :home-panel]))
 
-  (defroute "/blog" []
-    (re-frame/dispatch [::events/set-active-panel :blog-panel]))
+  (defroute "/bma_website" []
+    (re-frame/dispatch [::events/set-active-panel :bma-website]))
+
+  (defroute "/songlist" []
+    (re-frame/dispatch [::events/set-active-panel :song-list]))
+
+  (defroute "/redacted" []
+    (re-frame/dispatch [::events/set-active-panel :redacted]))
+
+  (defroute "/irc_bot" []
+    (re-frame/dispatch [::events/set-active-panel :irc-bot]))
+
   ;; --------------------
   (hook-browser-navigation!))
