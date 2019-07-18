@@ -1,0 +1,33 @@
+.projectContainer {
+    width: 100%;
+    min-height: 100vh;
+    background: url("/images/squares_dusty.png");
+    background-size: 32px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.projectInfo {
+    background-color: #f6f6f6;
+    border: 3px solid #373737;
+    width: 70vw;
+    height: 90vh;
+    margin: auto;
+    padding: 10px;
+}
+
+.projectHeader {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-decoration: underline;
+}
+
+
+video {
+    width: 50%;
+}
+
+.videoDemo {
+    text-decoration: underline;
+}
