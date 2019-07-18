@@ -5,5 +5,4 @@
 /target
 /*-init.clj
 /resources/public/js/compiled
-.netlify
 out
