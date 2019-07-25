@@ -1,0 +1,124 @@
+.projectContainer {
+    width: 100%;
+    min-height: 100vh;
+    background: url("/images/squares_dusty.png");
+    background-size: 32px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.projectInfo {
+    position: relative;
+    background-color: #f6f6f6;
+    border: 3px solid #373737;
+    width: 70vw;
+    height: 90vh;
+    margin: auto;
+    padding: 10px;
+}
+
+.close {
+    color: black;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 10px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    margin: auto;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+
+.projectHeader {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-decoration: underline;
+}
+
+.button {
+    font-size: 1.1rem;
+    display: inline-block;
+    color: #f6f6f6;
+    border-radius: 5px;
+    border: solid 1px #395fb2;
+    background-color: #395fb2;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px 10px 0px 10px;
+}
+
+.button:hover {
+    background-color: #f6f6f6;
+    border: solid 1px;
+    border-color: #395fb2;
+    color: #395fb2;
+}
+
+.button-none, .button-none:hover {
+    cursor: default;
+    border: solid 1px red;
+    background-color: red;
+    color: #f6f6f6;
+}
+
+.button-left {
+    margin-left: 0;
+}
+
+.linkContainer {
+    margin-top: 5px;
+}
+
+.projectLink {
+    color: white;
+    text-decoration: none;
+}
+
+.projectDescription {
+    margin-top: 0;
+}
+
+.videoContainer {
+    height: 70%;
+}
+
+.video {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+iframe {
+    width: 65%;
+    height: 90%;
+}
+
+.projectSectionHeader {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.videoInfo {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.timestamps, .languages {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+}
