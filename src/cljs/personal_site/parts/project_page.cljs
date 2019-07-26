@@ -6,14 +6,14 @@
     [:span {:class "closeSpan"} "X"]]])
 
 
-(defn print-timestamps [timestamps]
-  (let [container [:div {:class "timestamps"} [:h2 {:class "projectHeader"} "Timestamps"]]]
+(defn print-timestamps [timestamps class]
+  (let [container [:div {:class (str "timestamps " class)} [:h2 {:class "projectHeader"} "Timestamps"]]]
     (into container
           (mapv (fn [timestamp] [:span timestamp]) timestamps))))
 
 
-(defn tech-stack [languages]
-  (let [container [:div {:class "languages"} [:h2 {:class "projectHeader"} "Tech Used"]]]
+(defn tech-stack [languages class]
+  (let [container [:div {:class (str "languages " class)} [:h2 {:class "projectHeader"} "Tech Used"]]]
     (into container
           (mapv (fn [language] [:span language]) languages))))
 
@@ -32,7 +32,7 @@
 
 (defn header [title live github]
   [:div {:class "projectHeaderContainer"}
-   [:h1 {:class "projectHeader"} title]
+   [:h1 {:class "projectTitle"} title]
    (links live github)])
 
 
@@ -50,14 +50,19 @@
               :frameBorder "0"
               :allowFullScreen true}]
     [:div {:class "videoInfo"}
-     (tech-stack languages)
-     (print-timestamps timestamps)]]])
+     (tech-stack languages "desktop")
+     (print-timestamps timestamps "desktop")]]])
 
 
 (defn template [title video languages timestamps live github description]
   [:div {:class "projectContainer"}
    [:div {:class "projectInfo"}
     (close)
-    (header title live github)
-    (project-description description)
-    (video-demo video languages timestamps)]])
+    [:div {:class "projectContent"}
+     (header title live github)
+     (project-description description)
+     (video-demo video languages timestamps)
+     [:div {:class "mobileVideoInfo"}
+      (tech-stack languages "mobile")
+      (print-timestamps timestamps "landscape")]
+     (print-timestamps timestamps "portrait")]]])
