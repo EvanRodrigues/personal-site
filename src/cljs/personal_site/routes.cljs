@@ -35,5 +35,8 @@
   (defroute "/irc_bot" []
     (re-frame/dispatch [::events/set-active-panel :irc-bot]))
 
+  (defroute "/lumiaero" []
+    (re-frame/dispatch [::events/set-active-panel :lumiaero]))
+
   ;; --------------------
   (hook-browser-navigation!))

@@ -13,26 +13,20 @@
     [:div {:class "headerContainer"}
      [:h1 {:class "infoTitle"} "Portfolio"]]
     [:div {:class "portfolioContainer"}
+      (portfolio_entry "LumiAero"
+                        "/#/lumiaero"
+                        "A website to manage aircraft and user information for a Microsoft Excel COM add-in called LumiAero. The website is linked to an Azure SQL relational database, and the project was started with ASP.NET Zero.")
+
      (portfolio_entry "BMA Website"
                       "/#/bma_website"
-                       ;; "https://github.com/EvanRodrigues/bma-website"
                        "I converted the previous Blue Moon Analytics site into a serverless SPA using reagent and re-frame. The new features that were added are a pricing tool, blog, and a nav bar for desktop and mobile.")
 
 
      (portfolio_entry "SongList"
                       "/#/songlist"
-                       ;; "https://github.com/EvanRodrigues/SongList"
-                       ;; "https://ruffianly-inaction.000webhostapp.com"
                        "A site to display a collection of songs in a table. Songs are stored in a MySQL database. Users can order by category (descending or ascending), and can search through the table by title or artist.")
 
 
       (portfolio_entry "IRCbot"
                        "/#/irc_bot"
-                       ;; "https://github.com/EvanRodrigues/IRCbot"
-                       "An IRC chat bot used for twitch.tv. The bot manages user data, raffles, in-channel currency distribution, song requests, and games. The bot can be configured to work with any streamer.")
-
-
-     (portfolio_entry "Redacted.tv"
-                      "/#/redacted"
-                       ;; "https://redacted.tv"
-                       "The community website for the Twitch.tv team \"Redacted\". I developed the Twitter and Twitch sections of the home page as WordPress shortcodes. I also editted the template to match design goals for the site.")]]])
+                       "An IRC chat bot used for twitch.tv. The bot manages user data, raffles, in-channel currency distribution, song requests, and games. The bot can be configured to work with any streamer.")]]])

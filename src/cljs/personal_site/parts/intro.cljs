@@ -7,14 +7,14 @@
     [:div {:class "text"}
      [:div {:class "introEntry"} "I'm Evan Rodrigues!"]
 
-     [:div {:class "introEntry"} "I'm a Software Developer that loves working on web applications."]
+     [:div {:class "introEntry"} "I'm a Software Developer who specializes in Full-Stack Web Development."]
 
      [:div {:class "introEntry"} "Feel free to "
        [:a {:class "highlighted" :href "./resume/Evan_Rodrigues_Resume.pdf"} "view my resume"]
        ", and if you're interested in contacting me you can "
        [:a {:class "highlighted" :href "mailto:evanthomasrodrigues@gmail.com"} "send me an email"] "."]
 
-     [:div {:class "introEntry"} "If you'd like to learn more about me, scroll down to check out some of my work!"]]
+     [:div {:class "introEntry"} "If you'd like to learn more about me, scroll down to see some of my work!"]]
 
     [:div {:class "socialLinks"}
      [:div {:class "iconContainer"}
