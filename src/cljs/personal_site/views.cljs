@@ -6,6 +6,7 @@
             [personal-site.pages.bma-website :as bma-website]
             [personal-site.pages.song-list :as song-list]
             [personal-site.pages.redacted :as redacted]
+            [personal-site.pages.lumiaero :as lumiaero]
             [personal-site.pages.irc-bot :as irc-bot]))
 
 
@@ -29,6 +30,10 @@
   [:div
    (irc-bot/html)])
 
+(defn lumiaero []
+  [:div
+   (lumiaero/html)])
+
 
 (defn- panels [panel-name]
   (case panel-name
@@ -37,6 +42,7 @@
     :song-list [song-list]
     :redacted [redacted]
     :irc-bot [irc-bot]
+    :lumiaero [lumiaero]
     [:div]))
 
 (defn show-panel [panel-name]
