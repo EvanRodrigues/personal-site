@@ -12,8 +12,11 @@ I used a [re-frame](https://github.com/Day8/re-frame) template to get the site s
 
 ## Purpose
 
-The purpose of this site is to provide an easy way for potential employers to view my projects and learn a little more about me. The site provides a clean and simple way to view my work and contact me for work.
+The purpose of this site is to provide an easy way for potential employers to view my projects and learn a little more about me. The site provides a clean and simple way to view my work and contact me.
 
 ## Future Plans
 
-I'd like to add more details for each project. Also, I want to develop a blog to share my thoughts on anything I've learned or current events in the industry.
+* Add a contact form.
+* Add small animations.
+* Split up portfolio into two sections (projects and professional work).
+* Maybe add a blog to share my thoughts on anything I've learned.
