@@ -15,4 +15,4 @@
 
      [:span {:class "storyEntry"} "In late 2019, I was given another opportunity to work with " [:a {:class "highlighted" :href "https://www.bluemoonanalytics.com"} "Blue Moon Analytics"] " as a Full-Stack Developer. I helped them develop an API and a web UI using C# and ASP.NET Core for a Microsoft Excel COM add-in called LumiAero."]
 
-     [:span {:class "storyEntry"} "I am currently looking for Software Development work either remotely or in the New York City area."]]]])
+     [:span {:class "storyEntry"} "I am currently looking for Software Development work in New York City and California."]]]])
