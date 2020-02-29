@@ -31,11 +31,15 @@ body {
     background-size: 32px 32px;
 }
 
-#blog {
-     background: url("/images/grey_bricks.jpg") no-repeat center center;
+#projects{
+    background: url("/images/skeletal_weave_beige.png");
 }
 
-#intro, #myStory, #portfolio, #blog {
+#blog {
+     background: url("/images/carbon_fibre_purple.png");
+}
+
+#intro, #myStory, #portfolio, #projects, #blog {
     display: flex;
     justify-content: center;
     align-items: center;

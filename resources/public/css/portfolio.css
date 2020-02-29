@@ -5,9 +5,39 @@
     justify-content: space-between;
 }
 
+
 .entryContainer {
     width: 47.5%;
 }
+
+.workTitle {
+    color: #395fb2;
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-size: 1.75rem;
+}
+
+.workSummary {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.workLink {
+    text-decoration: none;
+}
+
+.workLink:hover {
+    text-decoration: underline;
+    text-decoration-color: #395fb2;
+}
+
+.workContainer {
+    width: 47.5%;
+}
+
+
 
 .entryTitle {
     color: #395fb2;
