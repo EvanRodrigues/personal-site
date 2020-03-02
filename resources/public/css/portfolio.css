@@ -12,9 +12,9 @@
 
 .workTitle {
     color: #395fb2;
-    margin-top: 0;
-    margin-bottom: 7px;
     font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 
 .workSummary {
@@ -34,41 +34,24 @@
 }
 
 .workContainer {
-    width: 47.5%;
+    width: 100%;
 }
 
-
-
-.entryTitle {
-    color: #395fb2;
-    margin-top: 0;
-    margin-bottom: 7px;
-    font-size: 1.75rem;
-}
-
-.entrySummary {
-    margin-top: 0;
-    margin-bottom: 0;
+.workDate {
     font-size: 1.35rem;
-    font-weight: bold;
-}
-
-.entryLink {
-    text-decoration: none;
-}
-
-.entryLink:hover {
-    text-decoration: underline;
-    text-decoration-color: #395fb2;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 7px;
+    align-items: center;
 }
 
 
 @media screen and (max-width: 1200px) {
-    .entryTitle {
+    .workTitle {
 	font-size: 1.4rem;
     }
 
-    .entrySummary {
+    .workSummary, .workDate {
 	font-size: 1.1rem;
     }
 }
@@ -76,64 +59,66 @@
 
 @media screen and (max-width: 700px) {
     .portfolioContainer {
-	flex-direction: column;
-	flex-wrap: nowrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
 
-    .entryContainer {
+    .workContainer {
 	width: 100%;
     }
 
-    .entryTitle {
+    .workTitle {
 	text-align: center;
-	font-size: 1.9rem;
+	font-size: 2.1rem;
     }
 
-    .entrySummary {
+    .workSummary, .workDate {
 	text-align: center;
+	font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .workTitle {
+	font-size: 1.75rem;
+    }
+
+    .workSummary, .workDate {
 	font-size: 1.2rem;
     }
 }
 
 
-@media screen and (max-width: 375px) {
-    .entryTitle {
-	font-size: 1.75rem;
-    }
-
-    .entrySummary {
-	font-size: 1rem;
-    }
-}
-
-
 @media screen and (max-width: 374px) {
-    .entryTitle {
+    .workTitle {
 	font-size: 1.5rem;
     }
 
-    .entrySummary {
-	font-size: .95rem;
+    .workSummary, .workDate {
+	font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .workSummary, .workDate {
+        font-size: 1rem;
     }
 }
 
 
 @media screen and (max-width: 823px) and (orientation: landscape) {
     .portfolioContainer {
-	flex-direction: row;
+    flex-direction: row;
 	flex-wrap: wrap;
     }
 
-    .entryContainer {
-	width: 47.5%;
-    }
-
-    .entryTitle {
+    .workTitle {
 	text-align: left;
 	font-size: 2rem;
     }
 
-    .entrySummary {
+    .workSummary, .workDate {
 	text-align: left;
 	font-size: 1.4rem;
     }
@@ -141,22 +126,22 @@
 
 
 @media screen and (max-width: 640px) and (orientation: landscape) {
-    .entryTitle {
+    .workTitle {
 	font-size: 1.8rem;
     }
 
-    .entrySummary {
+    .workSummary, .workDate {
 	font-size: 1.25rem;
     }
 }
 
 @media screen and (max-width: 568px) and (orientation: landscape) {
-    .entryTitle {
+    .workTitle {
 	text-align: left;
 	font-size: 1.6rem;
     }
 
-    .entrySummary {
+    .workSummary, .workDate {
 	text-align: left;
 	font-size: 1.1rem;
     }
