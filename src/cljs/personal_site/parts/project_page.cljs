@@ -54,8 +54,8 @@
      (print-timestamps timestamps "desktop")]]])
 
 
-(defn template [title video languages timestamps live github description]
-  [:div {:class "projectContainer"}
+(defn template [title class video languages timestamps live github description]
+  [:div {:class class}
    [:div {:class "projectInfo"}
     (close)
     [:div {:class "projectContent"}

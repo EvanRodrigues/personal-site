@@ -7,7 +7,9 @@
             [personal-site.pages.song-list :as song-list]
             [personal-site.pages.redacted :as redacted]
             [personal-site.pages.lumiaero :as lumiaero]
-            [personal-site.pages.irc-bot :as irc-bot]))
+            [personal-site.pages.irc-bot :as irc-bot]
+            [personal-site.pages.stream-goal :as stream-goal]
+            [personal-site.pages.emote-combo-display :as emote-combo-display]))
 
 
 (defn home-panel []
@@ -34,6 +36,14 @@
   [:div
    (lumiaero/html)])
 
+(defn stream-goal []
+  [:div
+   (stream-goal/html)])
+
+(defn emote-combo-display []
+  [:div
+   (emote-combo-display/html)])
+
 
 (defn- panels [panel-name]
   (case panel-name
@@ -43,6 +53,8 @@
     :redacted [redacted]
     :irc-bot [irc-bot]
     :lumiaero [lumiaero]
+    :stream-goal [stream-goal]
+    :emote-combo-display [emote-combo-display]
     [:div]))
 
 (defn show-panel [panel-name]

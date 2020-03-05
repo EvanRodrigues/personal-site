@@ -31,11 +31,15 @@ body {
     background-size: 32px 32px;
 }
 
-#blog {
-     background: url("/images/grey_bricks.jpg") no-repeat center center;
+#projects{
+    background: url("/images/skeletal_weave_beige.png");
 }
 
-#intro, #myStory, #portfolio, #blog {
+#blog {
+     background: url("/images/carbon_fibre_purple.png");
+}
+
+#intro, #myStory, #portfolio, #projects, #blog {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +95,11 @@ span {
     html {
 	font-size: 14px;
     }
+
+    .infoTitle {
+        text-align: center;
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -116,6 +125,12 @@ span {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .infoTitle {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 823px) and (orientation: landscape) {
     html {
 	font-size: 10px;
@@ -125,7 +140,7 @@ span {
 	min-height: 0px;
     }
 
-    .headerContainer {
+    .headerContainer, .infoTitle {
 	text-align: left;
     }
 

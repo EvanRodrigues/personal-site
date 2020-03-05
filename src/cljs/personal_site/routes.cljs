@@ -38,5 +38,11 @@
   (defroute "/lumiaero" []
     (re-frame/dispatch [::events/set-active-panel :lumiaero]))
 
+  (defroute "/stream_goal" []
+  (re-frame/dispatch [::events/set-active-panel :stream-goal]))
+
+  (defroute "/emote_combo_display" []
+  (re-frame/dispatch [::events/set-active-panel :emote-combo-display]))
+
   ;; --------------------
   (hook-browser-navigation!))
