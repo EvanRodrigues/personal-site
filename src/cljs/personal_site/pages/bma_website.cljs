@@ -5,6 +5,7 @@
 (defn html []
   (project-page/template
    "BMA Website"
+   "workProjectContainer"
    "https://www.youtube.com/embed/1WhMwB_a87g"
    ["Clojure/ClojureScript" "HTML" "CSS" "reagent" "re-frame"]
    ["0:00 - Intro" "0:25 - Technologies Used" "1:20 - About the Job" "2:19 - Site Navigation" "2:55 - Pricing Tool" "4:03 - Mobile Site" "5:10 - Blog"]

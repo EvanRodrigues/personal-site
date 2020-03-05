@@ -1,8 +1,15 @@
 .projectContainer {
-    width: 100%;
-    min-height: 100vh;
+    background: url("/images/skeletal_weave_beige.png");
+}
+
+.workProjectContainer {
     background: url("/images/squares_dusty.png");
     background-size: 32px 32px;
+}
+
+.projectContainer, .workProjectContainer {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -187,7 +194,7 @@ iframe {
 	height: auto;
     }
 
-    .projectContainer {
+    .projectContainer, .workProjectContainer {
 	padding-top: 0;
 	padding-bottom: 0;
     }
