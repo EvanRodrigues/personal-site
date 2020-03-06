@@ -85,24 +85,43 @@
     }
 
     .workSummary, .workDate {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
     }
 }
 
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
     .workTitle {
 	font-size: 1.5rem;
     }
 
     .workSummary, .workDate {
-	font-size: 1.1rem;
+	font-size: 1.17rem;
     }
 }
 
+
+@media screen and (max-width: 375px) and (min-height: 811px) {
+    .workTitle {
+	font-size: 1.5rem;
+    }
+
+    .workSummary, .workDate {
+	font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .workSummary, .workDate {
+        font-size: 1.1rem;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .workSummary, .workDate {
-        font-size: 1rem;
+        font-size: .95rem;
     }
 }
 
@@ -115,34 +134,34 @@
 
     .workTitle {
 	text-align: left;
-	font-size: 2rem;
+	font-size: 1.8rem;
     }
 
     .workSummary, .workDate {
 	text-align: left;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
     }
 }
 
 
 @media screen and (max-width: 640px) and (orientation: landscape) {
     .workTitle {
-	font-size: 1.8rem;
+	font-size: 1.7rem;
     }
 
     .workSummary, .workDate {
-	font-size: 1.25rem;
+	font-size: 1.2rem;
     }
 }
 
 @media screen and (max-width: 568px) and (orientation: landscape) {
     .workTitle {
 	text-align: left;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
     }
 
     .workSummary, .workDate {
 	text-align: left;
-	font-size: 1.1rem;
+	font-size: 1rem;
     }
 }
