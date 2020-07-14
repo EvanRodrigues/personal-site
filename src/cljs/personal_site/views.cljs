@@ -8,7 +8,7 @@
             [personal-site.pages.redacted :as redacted]
             [personal-site.pages.lumiaero :as lumiaero]
             [personal-site.pages.irc-bot :as irc-bot]
-            [personal-site.pages.stream-goal :as stream-goal]
+            [personal-site.pages.stream-tools :as stream-tools]
             [personal-site.pages.emote-combo-display :as emote-combo-display]))
 
 
@@ -36,9 +36,9 @@
   [:div
    (lumiaero/html)])
 
-(defn stream-goal []
+(defn stream-tools []
   [:div
-   (stream-goal/html)])
+   (stream-tools/html)])
 
 (defn emote-combo-display []
   [:div
@@ -53,7 +53,7 @@
     :redacted [redacted]
     :irc-bot [irc-bot]
     :lumiaero [lumiaero]
-    :stream-goal [stream-goal]
+    :stream-tools [stream-tools]
     :emote-combo-display [emote-combo-display]
     [:div]))
 

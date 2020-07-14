@@ -15,9 +15,9 @@
                       "/#/songlist"
                        "A site to display a collection of songs in a table. Songs are stored in a MySQL database. Users can order by category (descending or ascending), and can search through the table by title or artist.")
 
-        (project_entry "stream-goal"
-                      "/#/stream_goal"
-                       "A widget for twitch.tv streamers to use as a donation bar. It uses the Streamlabs Socket API to combine all of the Streamlabs goal bars (subscriptions, paypal donations, and bits) into one bar that keeps track of everything.")
+        (project_entry "stream-tools"
+                      "/#/stream_tools"
+                       "A platform to distribute my twitch.tv widgets to my friends to use. It's my first full stack personal project and is consistently being update with new widgets and features.")
 
         (project_entry "emote-combo-display"
                       "/#/emote_combo_display"
