@@ -5,9 +5,9 @@
   (project-page/template
    "stream-tools"
    "projectContainer"
-   "https://www.youtube.com/embed/8Y7H5rTbC54"
+   "https://www.youtube.com/embed/vHNKRo6t-oc"
    ["Node.js" "Express" "JavaScript" "MongoDB" "HTML" "SASS/CSS"]
-   ["0:00 - Intro" "0:26 - Why I Made It" "3:09 - Functionality" "5:59 - Resetting the Bar" "7:21 - Future Plans"]
+   ["0:00 - Intro" "0:43 - Technologies Used" "1:04 - Purpose of Project" "2:26 - The Dashboard" "4:17 - Customizing the Bar" "6:57 - Future Plans"]
    nil
    "https://github.com/EvanRodrigues/stream-tools"
    "A platform to distribute my twitch.tv widgets to my friends to use. It's my first full stack personal project and is consistently being update with new widgets and features."))
