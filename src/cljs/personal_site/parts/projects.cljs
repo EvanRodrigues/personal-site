@@ -17,7 +17,7 @@
 
         (project_entry "stream-tools"
                       "/#/stream_tools"
-                       "A platform to distribute my twitch.tv widgets to my friends to use. It's my first full stack personal project and is consistently being update with new widgets and features.")
+                       "A platform to distribute my twitch.tv widgets to my friends to use. It's my first full stack personal project and is consistently being updated with new widgets and features.")
 
         (project_entry "emote-combo-display"
                       "/#/emote_combo_display"
