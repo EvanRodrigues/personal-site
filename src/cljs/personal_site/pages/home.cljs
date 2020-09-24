@@ -8,9 +8,9 @@
 
 (defn html []
   [:div {:class "contentContainer"}
-   (intro/html)
-   (portfolio/html)
-   (projects/html)
-   (story/html)
-   ;;(blog/html)
-   ])
+    (intro/html)
+    (portfolio/html)
+    (projects/html)
+    (story/html)
+    ;;(blog/html)
+  ])

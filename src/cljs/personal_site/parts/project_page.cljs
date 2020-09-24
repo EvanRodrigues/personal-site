@@ -1,9 +1,14 @@
 (ns personal-site.parts.project-page)
 
-(defn close []
-  [:a {:href "/#/"}
-   [:div {:class "close"}
-    [:span {:class "closeSpan"} "X"]]])
+(defn close [isProject]
+  (if isProject
+    [:a {:href "/#/projects"}
+      [:div {:class "close"}
+        [:span {:class "closeSpan"} "X"]]]
+
+    [:a {:href "/#/portfolio"}
+      [:div {:class "close"}
+        [:span {:class "closeSpan"} "X"]]]))
 
 
 (defn print-timestamps [timestamps class]
@@ -54,10 +59,10 @@
      (print-timestamps timestamps "desktop")]]])
 
 
-(defn template [title class video languages timestamps live github description]
+(defn template [title class video languages timestamps live github description isProject]
   [:div {:class class}
    [:div {:class "projectInfo"}
-    (close)
+    (close isProject)
     [:div {:class "projectContent"}
      (header title live github)
      (project-description description)

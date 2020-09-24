@@ -1,7 +1,10 @@
 (ns personal-site.routes
   (:require-macros [secretary.core :refer [defroute]])
+  (:use-macros [cljs.core.async.macros :only [go]])
   (:import goog.History)
   (:require
+   [reagent.core :as reagent]
+   [cljs.core.async :refer [<! timeout]]
    [secretary.core :as secretary]
    [goog.events :as gevents]
    [goog.history.EventType :as EventType]
@@ -22,6 +25,22 @@
   ;; define routes here
   (defroute "/" []
     (re-frame/dispatch [::events/set-active-panel :home-panel]))
+
+  (defroute "/projects" []
+    (re-frame/dispatch [::events/set-active-panel :home-panel])
+    (go
+      (<! (timeout 25))
+      (-> js/document
+        (.getElementById "projects")
+        (.scrollIntoView true))))
+  
+  (defroute "/portfolio" []
+    (re-frame/dispatch [::events/set-active-panel :home-panel])
+    (go
+      (<! (timeout 25))
+      (-> js/document
+        (.getElementById "portfolio")
+        (.scrollIntoView true))))  
 
   (defroute "/bma_website" []
     (re-frame/dispatch [::events/set-active-panel :bma-website]))
