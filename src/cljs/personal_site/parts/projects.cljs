@@ -15,7 +15,7 @@
                       "/#/songlist"
                        "A site to display a collection of songs in a table. Songs are stored in a MySQL database. Users can order by category (descending or ascending), and can search through the table by title or artist.")
 
-        (project_entry "stream-tools"
+        (project_entry "Stream Tools"
                       "/#/stream_tools"
                        "A platform to distribute my twitch.tv widgets to my friends to use. It's my first full stack personal project and is consistently being updated with new widgets and features.")
 
