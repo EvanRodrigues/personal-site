@@ -3,11 +3,11 @@
 
 (defn html []
   (project-page/template
-   "stream-tools"
+   "Stream Tools"
    "projectContainer"
-   "https://www.youtube.com/embed/vHNKRo6t-oc"
-   ["Node.js" "Express" "JavaScript" "MongoDB" "HTML" "SASS/CSS"]
-   ["0:00 - Intro" "0:43 - Technologies Used" "1:04 - Purpose of Project" "2:26 - The Dashboard" "4:17 - Customizing the Bar" "6:57 - Future Plans"]
+   "https://www.youtube.com/embed/4vyPTh6EWkw"
+   ["Node.js" "Express" "JavaScript" "React/Redux" "Jest" "MongoDB" "HTML" "SASS/CSS"]
+   ["0:00 - Intro" "1:12 - Loggin In" "2:04 - Home Page" "2:48 - Goal Dashboard" "4:19 - Changing Settings" "8:03 - Bar In Action"]
    nil
    "https://github.com/EvanRodrigues/stream-tools"
    "A platform to distribute my twitch.tv widgets to my friends to use. It's my first full stack personal project and is consistently being updated with new widgets and features."
